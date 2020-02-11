@@ -11,3 +11,7 @@ My tools i use in a production pipeline in a softwares such as blender/houdini/a
     To call that operator type "Mute Shapekeys for Object -  Operator" in a search menu. 
     Note: This operator would dissapear after you close blender instance. So make sure to launch script again
     
+# • surface_follow_28.py
+    This script is a port to 2.80 from this repository
+    https://github.com/the3dadvantage/BlenderSurfaceFollow/blob/master/Surface%20Follow
+    Before binding to surface you have to apply all transfroms
