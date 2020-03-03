@@ -20,3 +20,9 @@ My tools i use in a production pipeline in a softwares such as blender/houdini/a
     usually usage would be something like blender -b filename.blend -p select_gpu.py
     But before that, you should edit  highlighte line in the script, where you can choose which gpu's to enable:
     dev_list = [0,1,2]
+# • restart_blen_on_crash.bat
+    This windows batch file will restart blender every time blender shuts off. 
+    Be ready to kill your batch file via task manager. 
+    Also note: you should specify in blend file not to overwrite render results, so after
+    restart your blender would continue render from last frame. And wouldn't redo all the
+    stuff from the begining
