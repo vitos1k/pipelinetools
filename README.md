@@ -15,3 +15,8 @@ My tools i use in a production pipeline in a softwares such as blender/houdini/a
     This script is a port to 2.80 from this repository
     https://github.com/the3dadvantage/BlenderSurfaceFollow/blob/master/Surface%20Follow
     Before binding to surface you have to apply all transfroms
+# • select_gpu.py
+    Script to use with blender commandline arguments, to select proper GPU's to render with
+    usually usage would be something like blender -b filename.blend -p select_gpu.py
+    But before that, you should edit  highlighte line in the script, where you can choose which gpu's to enable:
+    dev_list = [0,1,2]
