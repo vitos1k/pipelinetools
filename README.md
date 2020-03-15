@@ -26,3 +26,7 @@ My tools i use in a production pipeline in a softwares such as blender/houdini/a
     Also note: you should specify in blend file not to overwrite render results, so after
     restart your blender would continue render from last frame. And wouldn't redo all the
     stuff from the begining
+# • invert_seams.py
+    This script is for blender2.8x , inverts Seams/OR/Sharp tag for selected edges. Type InvertPopup into Search,
+    to call an operator. After that you can add to qucik favs individual operators from
+    popup menu Just by rightclicking on them
