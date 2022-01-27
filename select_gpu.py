@@ -13,6 +13,7 @@ def enable_gpus(device_type,device_list):
     preferences = bpy.context.preferences
     cycles_preferences = preferences.addons["cycles"].preferences
     device_types = [dev[0] for dev in  cycles_preferences.get_device_types(bpy.context.scene)]
+    current_type = cycles_preferences.compute_device_type
     if ((device_type == None) or (device_type not in device_types)):
           #IF OPTIX SELECTED THEN SEARCH ALL OPTIX DEVICES    
         all_devices = cycles_preferences.get_devices_for_type(current_type)
