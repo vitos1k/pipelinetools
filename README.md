@@ -30,3 +30,11 @@ My tools i use in a production pipeline in a softwares such as blender/houdini/a
     This script is for blender2.8x , inverts Seams/OR/Sharp tag for selected edges. Type InvertPopup into Search,
     to call an operator. After that you can add to qucik favs individual operators from
     popup menu Just by rightclicking on them
+# • io_export_anim.py
+    Export to CSV (specificaly for IFSRenderer)
+    Note that channel names had to be replaced manually
+    To export camera data uncheck "Include name" and "Include scale"
+    And add this header:
+    Camera.Position.X,Camera.Position.Y,Camera.Position.Z,Camera.Orientation.W,Camera.Orientation.X,Camera.Orientation.Y,Camera.Orientation.Z
+
+
