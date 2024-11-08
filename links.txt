@@ -1,0 +1,19 @@
+HYG Catalogue
+https://www.astronexus.com/hyg
+
+
+Augmented HYG Catalogue
+https://github.com/astronexus/ATHYG-Database
+
+
+Spreadsheetimport addon
+https://extensions.blender.org/add-ons/spreadsheet-import/
+
+
+Gaya Data release
+https://gea.esac.esa.int/archive/documentation/GDR1/datamodel/Ch1/tgas_source.html
+http://cdn.gea.esac.esa.int/Gaia/gdr1/
+
+
+Blender 3d toolkit
+https://blender.org
